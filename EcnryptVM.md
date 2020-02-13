@@ -2,7 +2,7 @@
 
 ## PowerShell : 
 
-*Login-AzAccount*
+#### Login-AzAccount
 
 $resourceGroup=MYRG
 
@@ -12,7 +12,7 @@ $vmName = MYVM
 
 $keyVaultName = myuniquekeyvault
 
-### Create a Resource Group
+#### Create a Resource Group
 *Get-AzResourceGroup -Name $ResourceGroup -Location $location*
 
 #### Craete a VM
