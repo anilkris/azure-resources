@@ -5,6 +5,7 @@
 *Login-AzAccount*
 
 $resourceGroup=MYRG
+
 $location = southindia
 
 $vmName = MYVM
