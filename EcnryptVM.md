@@ -23,13 +23,13 @@ $keyVaultName = myuniquekeyvault
 
 
 #### Create a Key Vault
-*New-AzKeyVault -Name $keyVaultName -ResourceGroupName $resourceGroup -Location $location 
+*New-AzKeyVault -Name $keyVaultName -ResourceGroupName $resourceGroup -Location $location* 
 
 #### Set an access poilcy for VM Disk Encryption
-Set-AzKeyVaultAccessPolicy -VaultName $keyVaultName -ResourceGroupName $ResourceGroup -EnabledForDiskEncryption
+*Set-AzKeyVaultAccessPolicy -VaultName $keyVaultName -ResourceGroupName $ResourceGroup -EnabledForDiskEncryption*
 
 
 #Encrypt VM
-$KeyVault = Get-AzKeyVault -VaultName $keyVaultName -ResourceGroup $resourceGroup
+*$KeyVault = Get-AzKeyVault -VaultName $keyVaultName -ResourceGroup $resourceGroup*
 
-Set-AzVmDiskEcnryptionExtension -ResourceGroupName $resourceGroup -VMName $vmName $keyVault.VaultUri -DiskEncryptionKeyVaultId $KeyVault.ResourceId
+*Set-AzVmDiskEcnryptionExtension -ResourceGroupName $resourceGroup -VMName $vmName $keyVault.VaultUri -DiskEncryptionKeyVaultId $KeyVault.ResourceId*
