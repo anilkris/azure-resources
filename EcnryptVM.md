@@ -1,4 +1,4 @@
-# Encrypt VM
+# Encrypt VM DISK
 
 ## PowerShell : 
 
@@ -35,3 +35,6 @@ $keyVaultName = myuniquekeyvault
 *$KeyVault = Get-AzKeyVault -VaultName $keyVaultName -ResourceGroup $resourceGroup*
 
 *Set-AzVmDiskEcnryptionExtension -ResourceGroupName $resourceGroup -VMName $vmName $keyVault.VaultUri -DiskEncryptionKeyVaultId $KeyVault.ResourceId*
+
+
+The VM disk is encrypted now. We can check this disk of the VM in the Azure portal.
