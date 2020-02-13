@@ -30,7 +30,8 @@ $keyVaultName = myuniquekeyvault
 *Set-AzKeyVaultAccessPolicy -VaultName $keyVaultName -ResourceGroupName $ResourceGroup -EnabledForDiskEncryption*
 
 
-#Encrypt VM
+#### Encrypt VM
+
 *$KeyVault = Get-AzKeyVault -VaultName $keyVaultName -ResourceGroup $resourceGroup*
 
 *Set-AzVmDiskEcnryptionExtension -ResourceGroupName $resourceGroup -VMName $vmName $keyVault.VaultUri -DiskEncryptionKeyVaultId $KeyVault.ResourceId*
