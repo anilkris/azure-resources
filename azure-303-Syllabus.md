@@ -72,6 +72,8 @@
 
 * configure Azure Disk Encryption
 
+[DiskEncryption](EcnryptVM.md, DiskEncryptionPowershell)
+
 ### Automate deployment and configuration of resources
 
 * save a deployment as an Azure Resource Manager template
@@ -229,6 +231,8 @@ NOT: Service Fabric
 * select appropriate CosmosDB APIs
  
 * set up replicas in CosmosDB Implement Azure SQL databases
+
+### Implement SQL databases
 
 * configure Azure SQL database settings
 
