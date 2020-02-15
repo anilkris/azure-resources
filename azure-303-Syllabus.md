@@ -72,7 +72,7 @@
 
 * configure Azure Disk Encryption
 
-[DiskEncryption](https://github.com/anilkris/azure-resources/blob/master/EcnryptVM.md , DiskEncryptionPowershell)
+[Disk Encryption](https://github.com/anilkris/azure-resources/blob/master/../../../../../../EcnryptVM.md "DiskEncryption")
 
 ### Automate deployment and configuration of resources
 
