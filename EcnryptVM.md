@@ -22,7 +22,7 @@ $keyVaultName = myuniquekeyvault
 #### Create a Resource Group
 
 ```shellscript
-Get-AzResourceGroup -Name $ResourceGroup -Location $location
+New-AzResourceGroup -Name $ResourceGroup -Location $location
 ```
 
 #### Craete a VM
