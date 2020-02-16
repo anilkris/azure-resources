@@ -9,13 +9,13 @@ Login to Azure account and create some environmental variables
 ```shellscirpt
 Login-AzAccount
 
-$resourceGroup=MYRG
+$resourceGroup='MYRG'
 
-$location = southindia
+$location='southindia'
 
-$vmName = MYVM
+$vmName='MYVM'
 
-$keyVaultName = myuniquekeyvault
+$keyVaultName='myuniquekeyvault'
 ```
 
 
