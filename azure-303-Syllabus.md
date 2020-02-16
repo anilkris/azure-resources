@@ -4,241 +4,240 @@
 
 ### Implement cloud infrastructure monitoring
 
-*  monitor security
+* - [ ] monitor security 
 
-*  monitor performance
+* - [ ]  monitor performance 
 
-    * configure diagnostic settings on resources
+    * - [ ] configure diagnostic settings on resources 
 
-    *  create a performance baseline for resources
+    * - [ ] create a performance baseline for resources
 
-    *  monitor for unused resources
+    * - [ ] monitor for unused resources
 
-    *  monitor performance capacity
+    * - [ ]  monitor performance capacity
 
-    *  visualize diagnostics data using Azure Monitor
+    * - [ ] visualize diagnostics data using Azure Monitor
 
-* monitor health and availability
+* - [ ] monitor health and availability
 
-  *  monitor networking
-  *  monitor service health
+  * - [ ] monitor networking
+  * - [ ]  monitor service health
 
-* monitor cost
+* - [ ] monitor cost
 
-  * monitor spend 
-  * report on spend
+  * - [ ] monitor spend 
+  * - [ ] report on spend
 
-* configure advanced logging
+* - [ ] configure advanced logging
 
-  * implement and configure Azure Monitor insights, including App Insights, Networks,
-    Containers
+  * - [ ] implement and configure Azure Monitor insights, including App Insights, Networks, Containers
 
-  * configure a Log Analytics workspace
+  * - [ ] configure a Log Analytics workspace
 
-* configure logging for workloads
+* - [ ] configure logging for workloads
 
-  * initiate automated responses by using Action Groups
+  * - [ ] initiate automated responses by using Action Groups
 
-* configure and manage advanced alerts
+* - [ ] configure and manage advanced alerts
 
-  * collect alerts and metrics across multiple subscriptions 
-  * view Alerts in Azure Monitor logs
+  * - [ ] collect alerts and metrics across multiple subscriptions 
+  * - [ ] view Alerts in Azure Monitor logs
   
   *  NOT: create Log Analytics query
 
 ###  Implement storage accounts
-* select storage account options based on a use case
+* - [ ] select storage account options based on a use case
 
-* configure Azure Files and blob storage
+* - [ ] configure Azure Files and blob storage
 
-* configure network access to the storage account
-* implement Shared Access Signatures and access policies
-* implement Azure AD authentication for storage
-* manage access keys
-* implement Azure storage replication
-  * implement Azure storage account failover
+* - [ ] configure network access to the storage account
+* - [ ] implement Shared Access Signatures and access policies
+* - [ ] implement Azure AD authentication for storage
+* - [ ] manage access keys
+* - [ ] implement Azure storage replication
+* - [ ] implement Azure storage account failover
 
 ### Implement VMs for Windows and Linux
 
-* configure High Availability
+* - [ ] configure High Availability
 
-* configure storage for VMs
+* - [ ] configure storage for VMs
 
-* select virtual machine size
+* - [ ] select virtual machine size
 
-* implement Azure Dedicated Hosts
+* - [ ] implement Azure Dedicated Hosts
 
-* deploy and configure scale sets
+* - [ ] deploy and configure scale sets
 
-* configure Azure Disk Encryption
+* - [X] configure Azure Disk Encryption
 
 
 [Disk Encryption](https://github.com/anilkris/azure-resources/blob/master/EcnryptVM.md "DiskEncryption")
 
 ### Automate deployment and configuration of resources
 
-* save a deployment as an Azure Resource Manager template
-* modify Azure Resource Manager template
-* evaluate location of new resources
-* configure a virtual disk template
-* deploy from a template
-* manage a template library
-* create and execute an automation runbook
+* - [ ] save a deployment as an Azure Resource Manager template
+* - [ ] modify Azure Resource Manager template
+* - [ ] evaluate location of new resources
+* - [ ] configure a virtual disk template
+* - [ ] deploy from a template
+* - [ ] manage a template library
+* - [ ] create and execute an automation runbook
 
 ### Implement virtual networking
 
-* implement VNet to VNet connections
+* - [ ] implement VNet to VNet connections
 
-* implement VNet peering
+* - [ ] implement VNet peering
 
 
 ### Implement Azure Active Directory
 
-* add custom domains
+* - [ ] add custom domains
 
-* configure Azure AD Identity Protection
+* - [ ] configure Azure AD Identity Protection
 
-* implement self-service password reset
+* - [ ] implement self-service password reset
 
-* implement Conditional Access including MFA
+* - [ ] implement Conditional Access including MFA
  
- * configure user accounts for MFA
+ * - [ ] configure user accounts for MFA
 
-* configure fraud alerts
+* - [ ] configure fraud alerts
 
-* configure bypass options
+* - [ ] configure bypass options
 
-* configure Trusted IPs
+* - [ ] configure Trusted IPs
 
-* configure verification methods
+* - [ ] configure verification methods
 
-* implement and manage guest accounts
+* - [ ] implement and manage guest accounts
 
-* manage multiple directories
+* - [ ] manage multiple directories
 
 ### Implement and manage hybrid identities
 
-* install and configure Azure AD Connect
+* - [ ] install and configure Azure AD Connect
 
-*  identity synchronization options
+*  - [ ] identity synchronization options
 
-* configure and manage password sync and password writeback
+* - [ ] configure and manage password sync and password writeback
 
-* configure single sign-on
+* - [ ] configure single sign-on
 
-* use Azure AD Connect Health
+* - [ ] use Azure AD Connect Health
 
 ## Implement Management and Security Solutions (25-30%)
 
 #### Manage workloads in Azure
 
- * migrate workloads using Azure Migrate
+ * - [ ] migrate workloads using Azure Migrate
 
-   * assess infrastructure
+   * - [ ] assess infrastructure
 
-   * select a migration method
+   * - [ ] select a migration method
 
-   * prepare the on-premises for migration o recommend target infrastructure
+   * - [ ] prepare the on-premises for migration o recommend target infrastructure
 
-* implement Azure Backup for VMs
+* - [ ] implement Azure Backup for VMs
 
-* implement disaster recovery
+* - [ ] implement disaster recovery
 
-* implement Azure Update Management
+* - [ ] implement Azure Update Management
 
-* Implement load balancing and network security
+* - [ ] Implement load balancing and network security
 
-* implement Azure Load Balancer
+* - [ ]  implement Azure Load Balancer
 
-* implement an application gateway
+* - [ ]  implement an application gateway
 
-* implement a Web Application Firewall
+* - [ ] implement a Web Application Firewall
 
-* implement Azure Firewall
+* - [ ] implement Azure Firewall
 
-* implement the Azure Front Door Service
+* - [ ] implement the Azure Front Door Service
 
-* implement Azure Traffic Manager
+* - [ ] implement Azure Traffic Manager
 
-* implement Network Security Groups and Application Security Groups
+* - [ ] implement Network Security Groups and Application Security Groups
 
-* implement Bastion
+* - [ ] implement Bastion
 
 ### Implement and manage Azure governance solutions
  
-* create and manage hierarchical structure that contains management groups,
+* - [ ] create and manage hierarchical structure that contains management groups,
  subscriptions and resource groups
 
-* assign RBAC roles
+* - [ ] assign RBAC roles
 
-* create a custom RBAC role
+* - [ ] create a custom RBAC role
 
-* configure access to Azure resources by assigning roles
+* - [ ] configure access to Azure resources by assigning roles
 
-* configure management access to Azure
+* - [ ] configure management access to Azure
 
-* interpret effective permissions
+* - [ ] interpret effective permissions
 
-* set up and perform an access review
+* - [ ] set up and perform an access review
 
-* implement and configure an Azure Policy
+* - [ ] implement and configure an Azure Policy
 
-* implement and configure an Azure Blueprint
+* - [ ] implement and configure an Azure Blueprint
 
 ###  Manage security for applications
 
-* implement and configure KeyVault
+* - [ ] implement and configure KeyVault
 
-* implement and configure Azure AD Managed Identities
+* - [ ] implement and configure Azure AD Managed Identities
 
-* register and manage applications in Azure AD
+* - [ ] register and manage applications in Azure AD
 
 ## Implement Solutions for Apps (10-15%)
 ### Implement an application infrastructure
 
-* create and configure Azure App Service
+* - [ ] create and configure Azure App Service
 
-* create an App Service Web App for Containers
+* - [ ] create an App Service Web App for Containers
 
-* create and configure an App Service plan
+* - [ ] create and configure an App Service plan
 
-* configure an App Service
+* - [ ] configure an App Service
 
-* configure networking for an App Service
+* - [ ] configure networking for an App Service
 
-* create and manage deployment slots
+* - [ ] create and manage deployment slots
 
-* implement Logic Apps
+* - [ ] implement Logic Apps
 
-* implement Azure Functions
+*  - [ ] implement Azure Functions
 
 ### Implement container-based applications
 
-* create a container image
+* - [ ] create a container image
 
-* configure Azure Kubernetes Service
+* - [ ] configure Azure Kubernetes Service
 
-* publish and automate image deployment to the Azure Container Registry
+* - [ ] publish and automate image deployment to the Azure Container Registry
 
-* publish a solution on an Azure Container Instance •
+* - [ ] publish a solution on an Azure Container Instance •
 
 NOT: Service Fabric
 
 ## Implement and Manage Data Platforms (10-15%)
 ### Implement NoSQL databases
 
-* configure storage account tables
+* - [ ] configure storage account tables
 
-* select appropriate CosmosDB APIs
+* - [ ] select appropriate CosmosDB APIs
  
-* set up replicas in CosmosDB Implement Azure SQL databases
+* - [ ] set up replicas in CosmosDB Implement Azure SQL databases
 
 ### Implement SQL databases
 
-* configure Azure SQL database settings
+* - [ ]  configure Azure SQL database settings
 
-* implement Azure SQL Database managed instances
+* - [ ] implement Azure SQL Database managed instances
 
-* configure HA for an Azure SQL database
+* - [ ] configure HA for an Azure SQL database
 
-* publish an Azure SQL database
+* - [ ] publish an Azure SQL database
