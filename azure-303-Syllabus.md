@@ -71,8 +71,9 @@
 
 * - [X] configure Azure Disk Encryption
 
+[Az Docs - Disk Encryption](https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-disk-encryption-vms-vmss)
 
-[Disk Encryption](https://github.com/anilkris/azure-resources/blob/master/EcnryptVM.md "DiskEncryption")
+[Disk Encryption Powershell](https://github.com/anilkris/azure-resources/blob/master/EcnryptVM.md "DiskEncryption")
 
 ### Automate deployment and configuration of resources
 
