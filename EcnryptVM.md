@@ -28,7 +28,7 @@ New-AzResourceGroup -Name $ResourceGroup -Location $location
 #### Craete a VM
 
 ```shellscript
-New-AzVm -Name $vmName -ResourceGroup $resourceGroup -Location $location  -Size Standard_D2_V3 -Image  Win2016Datacenter
+New-AzVm -Name $vmName -ResourceGroup $resourceGroup -Location $location  -Size Standard_D2_V3 -Image  Win2016Datacenter -OpenPorts 3389
 ```
 
 #### Create a Key Vault
