@@ -66,7 +66,7 @@ Add-AzADGroupMember -MemberObjectId $vmId.Id -TargetGroupObjectId $myGroup.Id
 
 ### Remove a VM
 
-'''shellscript
+```shellscript
 Remove-AzVm -Name $vmName -ResourceGroup $resourceGroup
 
-''''
+```
